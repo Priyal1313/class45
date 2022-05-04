@@ -4,11 +4,11 @@ var bulletSound;
 var zombieImg;
 function preload(){
   
-  shooterImg = loadImage("assets/shooter_2.png")
-  shooter_shooting = loadImage("assets/shooter_3.png")
-zombieImg = loadImage ("assets/zombie.png")
-  bgImg = loadImage("assets/bg.jpeg")
-bulletSound = loadSound("assets/explosion.mp3")
+  shooterImg = loadImage("shooter_2.png")
+  shooter_shooting = loadImage("shooter_3.png")
+zombieImg = loadImage ("zombie.png")
+  bgImg = loadImage("bg.jpeg")
+bulletSound = loadSound("explosion.mp3")
 }
 
 function setup() {
